@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-top: 5px;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #e5e5e5;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background-color: #6b4f2b;
+  color: white;
+  border-radius: 5px;
+}
+
+.mobile-btn {
+  padding: 10px 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+/* reservasi meja */
+.reservationInfo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.reservationInfo h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #5a3e36;
+}
+
+.reservationInfo p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.reservationInfo ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* reservation form */
+
+.reservationForm {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: #5a3e36;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.centang {
+  width: auto;
+  margin-right: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background: #5a3e36;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7a5248;
+}
+
+aside {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f4ebe7;
+  border-left: 5px solid #5a3e36;
+  margin-top: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+aside .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+aside h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #5a3e36;
+}
+
+aside p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+aside ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
